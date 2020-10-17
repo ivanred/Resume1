@@ -1,0 +1,144 @@
+
+
+.first {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1370px;
+    height: 50px;
+    background-color: blueviolet;
+    font-size:25px;
+    text-align: center;
+font-size: 25px;
+color: white;
+padding-top: 15px;
+}
+
+
+.main{
+    margin-top: 80px;
+    width: 900px;
+    height: 230px;
+    max-width: 100%;
+    display: flex;
+
+}
+
+.main_photo{
+    display: inline-block;
+    overflow: hidden;
+    width:200px;
+    height: 220px;
+}
+
+.main_photo img{
+transition: 1s;
+display: block;
+}
+
+.main_photo img:hover{
+    transform: scale(1.2);
+}
+
+.main_header{
+    border: 2px solid rebeccapurple;
+}
+
+.main_info{
+    margin-left: 15px;
+    width: 400px;
+    height: 230px;
+    
+}
+
+.main_goals{
+    line-height: 0.3em;
+    transition: 1s;
+    display: block;
+}
+
+.main_goals:hover{
+    margin-left: 50px;
+    transform: scale(1.2);
+
+}
+
+.main_birth{
+    padding-top: 1px;
+    line-height: 0.3em;
+    transition: 1s;
+    display: block;
+}
+
+.main_birth:hover{
+    margin-left: 50px;
+    transform: scale(1.2);
+}
+
+.main_contacts{
+    display: inline-block;
+
+    padding-top: 1px;
+    line-height: 0.3em;
+    transition: 1s;
+    display: block;
+}
+
+.main_contacts:hover{
+    margin-left: 50px;
+    transform: scale(1.2);
+  
+}
+
+.contact_icon{
+    display: inline-block;
+    font-size: 10px;
+}
+
+
+
+
+.skills{
+    margin-top: 20px;
+    width: 900px;
+    height: 100px;
+    max-width: 100%;
+    transition: 1s;
+    display: block;
+}
+
+.skills:hover{
+    transform: scale(1.2);
+    margin-left: 100px;
+
+}
+
+.exp{
+    margin-top: 20px;
+    width: 900px;
+    height: 70px;
+    max-width: 100%;
+    transition: 1s;
+    display: block;
+    
+}
+
+.exp:hover{
+    margin-left: 100px;
+    transform: scale(1.2);
+}
+
+    
+.educ{
+    margin-top: 20px;
+    width: 900px;
+    height: 100px;
+    max-width: 100%;
+    transition: 1s;
+    display: block;
+    
+}
+
+.educ:hover{
+    margin-left: 100px;
+    transform: scale(1.2);
+}
